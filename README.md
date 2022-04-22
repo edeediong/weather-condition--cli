@@ -8,7 +8,7 @@ umbrella or sunscreen.
 
 To run the app, take the following steps:
 
-* Signup at [WeatherApi](https://www.weatherapi.com/) and grab an API Key from them. It's free and does not need a credit card. 
+* Signup at [WeatherApi](https://www.weatherapi.com/) and grab an API Key from them. It's free and does not need a credit card.
 
 * Clone the repository into your local machine
 
