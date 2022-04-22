@@ -13,7 +13,7 @@ def initialize():
     api_key = os.environ.get("WEATHER_API_KEY")
 
     today = datetime.now()
-    url = f"http://api.weatherapi.com/v1/history.json?key={api_key}&q=auto:ip&dt={today.date()}"
+    url = f"http://api.weatherapi.com/v1/forecast.json?key={api_key}&q=auto:ip&dt={today.date()}"
     response = requests.get(url)
     json_response = response.json()
     forecast = json_response["forecast"]["forecastday"][0]
